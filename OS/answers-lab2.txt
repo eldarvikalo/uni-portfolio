@@ -1,0 +1,10 @@
+Answers for lab2 questions
+
+
+1. assuming that the following JOS kernel code is correct, what type should variable x have, uintptr_t or physaddr_t?
+	mystery_t x;
+	char* value = return_a_pointer();
+	*value = 10;
+	x = (mystery_t) value;
+
+
